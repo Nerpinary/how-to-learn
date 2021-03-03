@@ -74,7 +74,7 @@
   background-color: #2f80ed;
 }
 
-.two-colimns {
+.two-columns {
   display: flex;
   width: 80%;
   margin: 100px auto;
@@ -82,7 +82,7 @@
   justify-content: space-between;
 }
 
-.two-colimns__brief {
+.two-columns__brief {
   color: #2f80ed;
   width: 175px;
   margin-top: 0;
@@ -93,7 +93,7 @@
   align-content: flex-start;
 }
 
-.two-colimns__main-text {
+.two-columns__main-text {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -101,18 +101,18 @@
   flex-direction: column;
 }
 
-.two-colimns__paragraph {
+.two-columns__paragraph {
   margin: 0 0 30px 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.two-colimns__paragraph:last-of-type {
+.two-columns__paragraph:last-of-type {
   margin:0;
 }
 
-.two-colimns__span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -122,7 +122,7 @@
   padding-bottom: 100px;
 }
 
-.digits__title {
+.section-title {
   width: 60%;
   margin: 0 auto;
   line-height: 1.15;
@@ -133,13 +133,13 @@
   z-index: 1;
 }
 
-.digits__subtitle {
+.section-subtitle {
   width: 60%;
   margin: 20px auto 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  text-align: center;
+  text-align: center; 
 }
 
 .table {
@@ -227,17 +227,27 @@
   overflow: hidden;
 }
 
-.content_theme_dark {
+.section-title_theme_dark{
+color: white;
+}
+
+.section-subtitle_theme_dark {
   color: white;
 }
 
-.table_theme_dark {
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
+  color: white;
+}
+
+.table__cell_theme_dark {
   width: 200px;
-  margin-top: 80px;
-  color: white;
 }
 
-.kaufman__illustration {
+.kaufman__triangle {
  background-image: url(../images/kaufman-triangle.svg);
  background-size: cover;
  position: absolute;
@@ -268,7 +278,7 @@
   flex-direction: column;
 }
 
-.column_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
   
@@ -301,6 +311,9 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__social-icon {
